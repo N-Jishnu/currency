@@ -55,7 +55,7 @@ async function getExchangeRate() {
   exchangeTxt.innerText = "Getting exchange rate...";
 
   try {
-    let url = `https://v6.exchangerate-api.com/v6/b971d25f7628a40bd77a1ae5/pair/${fromCurrency.value}/${toCurrency.value}/${amountVal}`;
+    let url = `https://v6.exchangerate-api.com/v6/7732a674c8625845ddac6ee1/pair/${fromCurrency.value}/${toCurrency.value}/${amountVal}`;
     data = await fetch(url);
     response = await data.json();
 
@@ -87,4 +87,4 @@ exchangeIcon.addEventListener("click", () => {
   getExchangeRate();
 });
 
-// .
+// .value returns the value entered into an HTML input element, such as a text box
