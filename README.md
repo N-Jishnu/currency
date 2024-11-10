@@ -1,0 +1,2 @@
+Currency Converter
+This project is a simple currency converter built with JavaScript, HTML, and CSS. It features a dynamic list of countries and real-time exchange rates to help users quickly convert between different currencies. The main files include country-list.js for country data, script.js for conversion logic, and style.css for styling. Ideal for developers looking to understand basic web development concepts or create a lightweight currency converter.
